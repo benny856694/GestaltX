@@ -3,22 +3,22 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 110;
+	objectVersion = 77;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A11800000000000000000001 /* ZIPFoundation in Frameworks */ = {isa = PBXBuildFile; productRef = A11800000000000000000003 /* ZIPFoundation */; };
-		4590AC67EAB2441BAD0E6ED1 /* ItemProviderLoad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4C01D754C14C8B9BB28F96 /* ItemProviderLoad.swift */; };
 		0984A2204DCE106EB57ABBA5 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = C4D44512A7F31C4F05AD18C7 /* Localizable.xcstrings */; };
 		2A78BFEA3F79682B43C6174D /* GestaltXShare.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 9EABFACA1DBDA148BE33107B /* GestaltXShare.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4590AC67EAB2441BAD0E6ED1 /* ItemProviderLoad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4C01D754C14C8B9BB28F96 /* ItemProviderLoad.swift */; };
 		4DD89F9BEC1BCAEA76190943 /* GXEntitlementsReader.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B26403D3B2CF0AF602120A /* GXEntitlementsReader.m */; };
 		62ED10EDA2F9C8B69DEC64B2 /* SharedPlistInbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86A3FA0033C5ECD3A1B95B1 /* SharedPlistInbox.swift */; };
 		67975CDCBA5A29222352F292 /* SharedPlistInbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86A3FA0033C5ECD3A1B95B1 /* SharedPlistInbox.swift */; };
 		7D7396741BEF3E946DADCBBA /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF236E708DA867CE2ABD1DD3 /* ShareViewController.swift */; };
 		A0D119FCB3963A4F9C1EAF17 /* SharedAppGroups.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CE69FA6A4B81D2287B60D1 /* SharedAppGroups.swift */; };
+		A11800000000000000000001 /* ZIPFoundation in Frameworks */ = {isa = PBXBuildFile; productRef = A11800000000000000000003 /* ZIPFoundation */; };
+		A1C0DE000000000000000001 /* Native/DeviceConsole/build/GXDeviceConsole.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1C0DE000000000000000002 /* Native/DeviceConsole/build/GXDeviceConsole.xcframework */; };
 		C0E60E90A46F41C928987332 /* SharedAppGroups.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CE69FA6A4B81D2287B60D1 /* SharedAppGroups.swift */; };
 		D57FEACAB810D3AA8EDA8E33 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 650DA52892F36D0BD4701C9E /* Foundation.framework */; };
-		A1C0DE000000000000000001 /* GXDeviceConsole.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1C0DE000000000000000002 /* GXDeviceConsole.xcframework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,21 +53,19 @@
 		650DA52892F36D0BD4701C9E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		9EABFACA1DBDA148BE33107B /* GestaltXShare.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = GestaltXShare.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1AF8FCEFCC842955E10C577 /* GestaltXShare.entitlements */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.entitlements; path = GestaltXShare.entitlements; sourceTree = "<group>"; };
+		A1C0DE000000000000000002 /* Native/DeviceConsole/build/GXDeviceConsole.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = Native/DeviceConsole/build/GXDeviceConsole.xcframework; sourceTree = SOURCE_ROOT; };
 		B86A3FA0033C5ECD3A1B95B1 /* SharedPlistInbox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SharedPlistInbox.swift; sourceTree = "<group>"; };
-		C4D44512A7F31C4F05AD18C7 /* Localizable.xcstrings */ = {isa = PBXFileReference; includeInIndex = 1; name = Localizable.xcstrings; path = ../GestaltX/Localizable.xcstrings; sourceTree = "<group>"; };
+		C4D44512A7F31C4F05AD18C7 /* Localizable.xcstrings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json.xcstrings; name = Localizable.xcstrings; path = ../GestaltX/Localizable.xcstrings; sourceTree = "<group>"; };
 		CF236E708DA867CE2ABD1DD3 /* ShareViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
 		D4B26403D3B2CF0AF602120A /* GXEntitlementsReader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GXEntitlementsReader.m; path = ../GestaltX/GXEntitlementsReader.m; sourceTree = "<group>"; };
 		D4CE69FA6A4B81D2287B60D1 /* SharedAppGroups.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SharedAppGroups.swift; sourceTree = "<group>"; };
 		D8F975A2C87AA5E090A58F7F /* GXEntitlementsReader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GXEntitlementsReader.h; path = ../GestaltX/GXEntitlementsReader.h; sourceTree = "<group>"; };
 		E1681AAB87AE6E250D09FCD4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A1C0DE000000000000000002 /* GXDeviceConsole.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = Native/DeviceConsole/build/GXDeviceConsole.xcframework; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		3657C2DB303730E800908AE2 /* GestaltX */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-			);
 			path = GestaltX;
 			sourceTree = "<group>";
 		};
@@ -76,10 +74,12 @@
 /* Begin PBXFrameworksBuildPhase section */
 		3657C2D6303730E800908AE2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
 			files = (
 				A11800000000000000000001 /* ZIPFoundation in Frameworks */,
-				A1C0DE000000000000000001 /* GXDeviceConsole.xcframework in Frameworks */,
+				A1C0DE000000000000000001 /* Native/DeviceConsole/build/GXDeviceConsole.xcframework in Frameworks */,
 			);
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8EAD853B7894F8DE4CBFB3D3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
@@ -109,7 +109,6 @@
 				D8F975A2C87AA5E090A58F7F /* GXEntitlementsReader.h */,
 				C4D44512A7F31C4F05AD18C7 /* Localizable.xcstrings */,
 			);
-			name = Shared;
 			path = Shared;
 			sourceTree = "<group>";
 		};
@@ -122,7 +121,7 @@
 				114E4B0927714FB5809477BA /* Shared */,
 				549A67A15B582DE039CCAEE7 /* ShareExtension */,
 				D0ECEAEAA02D01A984128CA5 /* Configuration */,
-				A1C0DE000000000000000002 /* GXDeviceConsole.xcframework */,
+				A1C0DE000000000000000002 /* Native/DeviceConsole/build/GXDeviceConsole.xcframework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -144,7 +143,6 @@
 				A1AF8FCEFCC842955E10C577 /* GestaltXShare.entitlements */,
 				46D0711BAB4A7CD14E7A3BEE /* ShareExtension-Bridging-Header.h */,
 			);
-			name = ShareExtension;
 			path = ShareExtension;
 			sourceTree = "<group>";
 		};
@@ -161,7 +159,6 @@
 			children = (
 				2EF2633193BB80FFC35C8F39 /* App-Info.plist */,
 			);
-			name = Configuration;
 			path = Configuration;
 			sourceTree = "<group>";
 		};
@@ -185,8 +182,10 @@
 			fileSystemSynchronizedGroups = (
 				3657C2DB303730E800908AE2 /* GestaltX */,
 			);
-			packageProductDependencies = (A11800000000000000000003 /* ZIPFoundation */, );
 			name = GestaltX;
+			packageProductDependencies = (
+				A11800000000000000000003 /* ZIPFoundation */,
+			);
 			productName = GestaltX;
 			productReference = 3657C2D9303730E800908AE2 /* GestaltX.app */;
 			productType = "com.apple.product-type.application";
@@ -204,6 +203,8 @@
 			dependencies = (
 			);
 			name = GestaltXShare;
+			packageProductDependencies = (
+			);
 			productName = GestaltXShare;
 			productReference = 9EABFACA1DBDA148BE33107B /* GestaltXShare.appex */;
 			productType = "com.apple.product-type.app-extension";
@@ -255,7 +256,9 @@
 			);
 			mainGroup = 3657C2D0303730E800908AE2;
 			minimizedProjectReferenceProxies = 1;
-			packageReferences = (A11800000000000000000002 /* ZIPFoundation */, );
+			packageReferences = (
+				A11800000000000000000002 /* XCRemoteSwiftPackageReference "ZIPFoundation" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 3657C2DA303730E800908AE2 /* Products */;
 			projectDirPath = "";
@@ -278,18 +281,22 @@
 		};
 		3657C2D7303730E800908AE2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
 			files = (
 			);
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3657C2D5303730E800908AE2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
 			files = (
 				67975CDCBA5A29222352F292 /* SharedPlistInbox.swift in Sources */,
 				A0D119FCB3963A4F9C1EAF17 /* SharedAppGroups.swift in Sources */,
 			);
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 		C2F45E1AD284FDDEE3DC0E3F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -313,13 +320,6 @@
 			targetProxy = F569702176BDA756E86027C5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-        A11800000000000000000002 /* ZIPFoundation */ = {isa = XCRemoteSwiftPackageReference; repositoryURL = "https://github.com/weichsel/ZIPFoundation.git"; requirement = {kind = exactVersion; version = 0.9.20; }; };
-/* End XCRemoteSwiftPackageReference section */
-/* Begin XCSwiftPackageProductDependency section */
-        A11800000000000000000003 /* ZIPFoundation */ = {isa = XCSwiftPackageProductDependency; package = A11800000000000000000002 /* ZIPFoundation */; productName = ZIPFoundation; };
-/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCBuildConfiguration section */
 		3657C2E2303730E900908AE2 /* Debug */ = {
@@ -363,6 +363,7 @@
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = x86_64;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -439,6 +440,7 @@
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = x86_64;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -452,7 +454,7 @@
 				CODE_SIGN_ENTITLEMENTS = GestaltX/GestaltX.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 11140102;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = TB9CYHYU43;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Configuration/App-Info.plist";
@@ -473,15 +475,15 @@
 					"$(inherited)",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.huami.gestultx;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bennyshen.gestultx;
 				PRODUCT_NAME = GestaltX;
 				REGISTER_APP_GROUPS = YES;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited) GXDEVICECONSOLE";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "GestaltX/GestaltX-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -501,7 +503,7 @@
 				CODE_SIGN_ENTITLEMENTS = GestaltX/GestaltX.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 11140102;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = TB9CYHYU43;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Configuration/App-Info.plist";
@@ -522,15 +524,15 @@
 					"$(inherited)",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.huami.gestultx;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bennyshen.gestultx;
 				PRODUCT_NAME = GestaltX;
 				REGISTER_APP_GROUPS = YES;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) GXDEVICECONSOLE";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "GestaltX/GestaltX-Bridging-Header.h";
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
@@ -549,7 +551,7 @@
 				CODE_SIGN_ENTITLEMENTS = ShareExtension/GestaltXShare.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 11140102;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = TB9CYHYU43;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = ShareExtension/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
@@ -559,7 +561,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.1.1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.huami.gestultx.ShareExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bennyshen.gestultx.ShareExtension;
 				PRODUCT_NAME = GestaltXShare;
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = iphoneos;
@@ -582,7 +584,7 @@
 				CODE_SIGN_ENTITLEMENTS = ShareExtension/GestaltXShare.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 11140102;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = TB9CYHYU43;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = ShareExtension/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
@@ -592,7 +594,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.1.1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.huami.gestultx.ShareExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bennyshen.gestultx.ShareExtension;
 				PRODUCT_NAME = GestaltXShare;
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = iphoneos;
@@ -614,6 +616,7 @@
 				3657C2E2303730E900908AE2 /* Debug */,
 				3657C2E3303730E900908AE2 /* Release */,
 			);
+			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 		3657C2E4303730E900908AE2 /* Build configuration list for PBXNativeTarget "GestaltX" */ = {
@@ -622,6 +625,7 @@
 				3657C2E5303730E900908AE2 /* Debug */,
 				3657C2E6303730E900908AE2 /* Release */,
 			);
+			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 		40BB2C886A39AE64DC417EB1 /* Build configuration list for PBXNativeTarget "GestaltXShare" */ = {
@@ -634,6 +638,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A11800000000000000000002 /* XCRemoteSwiftPackageReference "ZIPFoundation" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/weichsel/ZIPFoundation.git";
+			requirement = {
+				kind = exactVersion;
+				version = 0.9.20;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A11800000000000000000003 /* ZIPFoundation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A11800000000000000000002 /* XCRemoteSwiftPackageReference "ZIPFoundation" */;
+			productName = ZIPFoundation;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3657C2D1303730E800908AE2 /* Project object */;
 }
